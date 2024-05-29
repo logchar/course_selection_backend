@@ -6,8 +6,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
 @SpringBootApplication
-@EntityScan(basePackages = "com.course.backend.entity")
-@EnableJpaRepositories(basePackages = "com.course.backend.repository")
 public class CourseSelectApplication {
 
     public static void main(String[] args) {
