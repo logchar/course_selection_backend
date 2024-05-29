@@ -1,0 +1,12 @@
+com\course\backend\entity\Student$Gender.class
+com\course\backend\repository\CourseRepository.class
+com\course\backend\CourseSelectApplication.class
+com\course\backend\service\StudentService.class
+com\course\backend\utils\R.class
+com\course\backend\utils\ResultCode.class
+com\course\backend\repository\TeacherRepository.class
+com\course\backend\entity\Student.class
+com\course\backend\entity\Teacher.class
+com\course\backend\controller\StudentController.class
+com\course\backend\entity\Course.class
+com\course\backend\repository\StudentRepository.class
