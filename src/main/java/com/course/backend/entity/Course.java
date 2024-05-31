@@ -25,7 +25,7 @@ public class Course {
     private String course_location;
 
     @ManyToOne
-    @Column(name = "teacher_id")
+    @JoinColumn(name = "teacher_id")
     private Teacher teacher;
 
     @ManyToMany(mappedBy = "courses")

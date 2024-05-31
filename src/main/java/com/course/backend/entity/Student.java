@@ -24,6 +24,9 @@ public class Student {
     @Enumerated(EnumType.STRING)
     private Gender gender;
 
+    @Column(name = "school_number")
+    private String schoolNumber;
+
     @Column(name = "department")
     private String department;
 
